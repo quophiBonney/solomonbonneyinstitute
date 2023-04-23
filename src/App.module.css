@@ -109,7 +109,7 @@ p {
     }
     
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 369px) and (min-width: 768px){
     #btnBookSession {
         display: none;
     }
@@ -122,5 +122,10 @@ p {
     }
     #numberTitle {
         font-size: 20px;
+    }
+}
+@media screen and (max-width:368px) {
+    #mission, #help {
+        font-size: 25px;
     }
 }
