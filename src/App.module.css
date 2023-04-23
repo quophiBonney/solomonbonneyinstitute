@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+}
+p {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+}
+/*** Navbar Design ***/
+#navbar {
+    background: rgb(209, 209, 218);
+    height: 100px;
+}
+#logo {
+    width: 200px;
+}
+.menuLink {
+    font-size: 16px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #110f0f;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.menuLink:hover {
+    text-decoration: underline;
+}
+#btnBookSession {
+    background: rgba(195, 30, 18, 0.89);
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+} 
+/*** Banner Design ***/
+.banner {
+    margin-top: 100px;
+    width: 100%;
+    object-fit: cover;
+    background: linear-gradient(rgba(133, 111, 31, 0.5), rgba(0, 0, 0, 0.5)),url('.././src/images/mainpic.jpg');
+    background-position: center center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#missionContainer {
+    margin-top: 100px;
+}
+#yellowText {
+    color: yellow;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#mission {
+    font-size: 70px;
+    font-family: 'Archivo Black', sans-serif;
+}
+#btnJoinGroup {
+    background:rgba(210, 92, 18, 0.958);
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    width: 200px;
+}
+/*** Achievement Design ***/
+#achievement {
+    background: rgb(16, 16, 59);
+}
+#help {
+    font-size: 40px;
+}
+#number {
+    font-size: 80px;
+    border-top: 5px solid rgba(218, 34, 21, 0.89);
+}
+#numberTitle {
+    font-size: 25px;
+}
+/** **/
+.claim {
+    background: rgb(243, 243, 245);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        height: 1000px;
+    }
+    #missionContainer {
+        margin-top: 300px;
+    }
+    #mission {
+        font-size: 60px;
+        color: red;
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    #btnBookSession {
+        display: none;
+    }
+    #mission, #help {
+        font-size: 30px;
+    }
+    #btnJoinGroup {
+        width: 150px;
+        font-size: 16px;
+    }
+    #numberTitle {
+        font-size: 20px;
+    }
+}
