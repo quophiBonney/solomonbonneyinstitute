@@ -106,11 +106,10 @@ p {
     }
     #mission {
         font-size: 60px;
-        color: red;
     }
     
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     #btnBookSession {
         display: none;
     }
