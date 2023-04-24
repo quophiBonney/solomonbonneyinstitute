@@ -4,6 +4,7 @@ import MainCSS from "../App.module.css";
 import Coding from "../../src/images/coding.jpg";
 import Bg1 from "../../src/images/bg1.jpg";
 import Side from "../../src/images/side.jpg";
+import LazyLoad from "react-lazy-load";
 function Claim() {
   return (
     <Container fluid id={MainCSS.claimContainer}>
@@ -15,12 +16,15 @@ function Claim() {
               Claim your place in the tech world with our concise, practical and
               impactful lessons.
             </h3>
-            <img
-              src={Coding}
-              alt="Coding"
-              className="img-fluid img-responsive"
-              id={MainCSS.codingImg}
-            />
+            <LazyLoad>
+              <img
+                src={Coding}
+                alt="Coding"
+                className="img-fluid img-responsive"
+                id={MainCSS.codingImg}
+                loading="lazy"
+              />
+            </LazyLoad>
           </Col>
           <Col
             xs={12}
@@ -37,12 +41,14 @@ function Claim() {
                 alt="Coding"
                 className="col-xs-3 col-sm-6 col-lg-6 img-fluid img-responsive m-2"
                 id={MainCSS.codingTwo}
+                loading="lazy"
               />
               <img
                 src={Bg1}
                 alt="Coding"
                 className="col-xs-3 col-sm-6 col-lg-6 img-fluid img-responsive m-2"
                 id={MainCSS.codingTwo}
+                loading="lazy"
               />
             </div>
             <p>

@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
 import Worried from "../../src/images/teamwork.jpeg";
+import LazyLoad from "react-lazy-load";
 function Contact() {
   return (
     <Container fluid className="mt-5 mb-3" id={MainCSS.contactContainer}>
@@ -27,12 +28,14 @@ function Contact() {
           className="mt-5 px-2 text-center card"
           id={MainCSS.worriedContainer}
         >
-          <img
-            src={Worried}
-            alt="worried png"
-            className="img-fluid img-responsive"
-            id={MainCSS.worriedImg}
-          />
+          <LazyLoad>
+            <img
+              src={Worried}
+              alt="worried png"
+              className="img-fluid img-responsive"
+              id={MainCSS.worriedImg}
+            />
+          </LazyLoad>
         </Col>
       </Row>
     </Container>

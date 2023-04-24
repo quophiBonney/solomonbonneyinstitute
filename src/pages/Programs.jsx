@@ -4,6 +4,7 @@ import MainCSS from "../App.module.css";
 import Remote from "../../src/images/remotejob.jpg";
 import Laptop from "../../src/images/laptop.png";
 import Content from "../../src/images/contentwriting.jpg";
+import LazyLoad from "react-lazy-load";
 function Programs() {
   return (
     <Container fluid className={MainCSS.programsBg}>
@@ -26,12 +27,14 @@ function Programs() {
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
           >
-            <img
-              src={Laptop}
-              alt="Laptop"
-              className="img-fluid img-responsive"
-              id={MainCSS.programsImg}
-            />
+            <LazyLoad>
+              <img
+                src={Laptop}
+                alt="Laptop"
+                className="img-fluid img-responsive"
+                id={MainCSS.programsImg}
+              />
+            </LazyLoad>
             <div className={MainCSS.textGroup}>
               <h4 className="text-uppercase py-3" id={MainCSS.programName}>
                 Full-stack Web Development
@@ -58,12 +61,14 @@ function Programs() {
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
           >
-            <img
-              src={Content}
-              alt="Laptop"
-              className="img-fluid img-responsive"
-              id={MainCSS.programsImg}
-            />
+            <LazyLoad>
+              <img
+                src={Content}
+                alt="Laptop"
+                className="img-fluid img-responsive"
+                id={MainCSS.programsImg}
+              />
+            </LazyLoad>
             <div className={MainCSS.textGroup}>
               <h4 className="text-uppercase py-3" id={MainCSS.programName}>
                 Content Writing Lessons
@@ -90,12 +95,14 @@ function Programs() {
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
           >
-            <img
-              src={Remote}
-              alt="Laptop"
-              className="img-fluid img-responsive"
-              id={MainCSS.programsImg}
-            />
+            <LazyLoad>
+              <img
+                src={Remote}
+                alt="Laptop"
+                className="img-fluid img-responsive"
+                id={MainCSS.programsImg}
+              />
+            </LazyLoad>
             <div className={MainCSS.textGroup}>
               <h4 className="text-uppercase py-3" id={MainCSS.programName}>
                 Remote Jobs Preparation Class

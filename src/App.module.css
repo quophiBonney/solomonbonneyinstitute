@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 
 *, *::after, *::before {
     padding: 0;
@@ -15,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo Black', sans-serif;
 }
 p {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 /*** Navbar Design ***/
@@ -271,7 +273,7 @@ p {
         height: 300px;
     }
 }
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 375px) {
     .banner {
         height: 600px;
     }
@@ -279,7 +281,7 @@ p {
         display: none;
     }
     #help, #mission, #ourPrograms {
-        font-size: 30px;
+        font-size: 25px;
     }
     #btnJoinGroup {
         width: 150px;
