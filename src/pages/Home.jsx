@@ -16,7 +16,13 @@ function Home() {
             <p className="mt-5" id={MainCSS.yellowText}>
               own a tech skill
             </p>
-            <h1 className="text-light text-uppercase" id={MainCSS.mission}>
+            <h1
+              className="text-light text-uppercase"
+              id={MainCSS.mission}
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
               Transformational Coding Institute
             </h1>
             <p className="text-light">
