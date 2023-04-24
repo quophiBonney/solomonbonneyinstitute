@@ -23,6 +23,9 @@ function Claim() {
                 className="img-fluid img-responsive"
                 id={MainCSS.codingImg}
                 loading="lazy"
+                data-aos="slide-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
               />
             </LazyLoad>
           </Col>
@@ -34,6 +37,9 @@ function Claim() {
             xl={6}
             className="px-2 mt-5"
             id={MainCSS.claimSecColumn}
+            data-aos="slide-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <div className="d-flex">
               <img

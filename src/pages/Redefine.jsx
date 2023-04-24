@@ -11,7 +11,13 @@ function Redefine() {
               learn in-demand tech skills to tap those untapped opportunities in
               the world.
             </p>
-            <h3 className="text-dark" id={MainCSS.help}>
+            <h3
+              className="text-dark"
+              id={MainCSS.help}
+              data-aos="fade-out"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
               Quickly kick-start to take your Computer Programming skills to the
               highest level.
             </h3>
@@ -25,6 +31,9 @@ function Redefine() {
             md={4}
             lg={4}
             className="mt-5 mb-5 text-center px-2"
+            data-aos="slide-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
           >
             <h3 className="text-dark" id={MainCSS.benefit}>
               Affordable
@@ -47,6 +56,9 @@ function Redefine() {
             md={4}
             lg={4}
             className="mt-5 mb-5 text-center px-2"
+            data-aos="slide-up"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <h3 className="text-dark" id={MainCSS.benefit}>
               Affordable
@@ -63,7 +75,16 @@ function Redefine() {
               revision.
             </p>
           </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mt-5 mb-5 text-center">
+          <Col
+            xs={12}
+            sm={12}
+            md={4}
+            lg={4}
+            className="mt-5 mb-5 text-center"
+            data-aos="slide-up"
+            data-aos-duration="2000"
+            data-aos-delay="1000"
+          >
             <h3 className="text-dark" id={MainCSS.benefit}>
               Future Proof
             </h3>

@@ -105,7 +105,8 @@ p {
     font-size: 20px;
 }
 #claimContainer {
-    background: linear-gradient(rgba(252, 255, 255, 0.869),rgba(252, 255, 255, 0.869), rgba(235, 153, 38, 0.89))
+    background: linear-gradient(rgba(252, 255, 255, 0.869),rgba(252, 255, 255, 0.869), rgba(235, 153, 38, 0.89));
+    overflow-x: hidden;
 }
 .claim {
     background: rgb(243, 243, 245);

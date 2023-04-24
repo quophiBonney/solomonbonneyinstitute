@@ -26,6 +26,9 @@ function Programs() {
             xl={4}
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
+            data-aos="slide-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
           >
             <LazyLoad>
               <img
@@ -60,6 +63,9 @@ function Programs() {
             xl={4}
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
+            data-aos="slide-up"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <LazyLoad>
               <img
@@ -94,6 +100,9 @@ function Programs() {
             xl={4}
             className="px-4 mt-5"
             id={MainCSS.singleProgram}
+            data-aos="slide-up"
+            data-aos-duration="2000"
+            data-aos-delay="1000"
           >
             <LazyLoad>
               <img

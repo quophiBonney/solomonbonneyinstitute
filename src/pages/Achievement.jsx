@@ -61,6 +61,10 @@ function Achievement() {
             md={4}
             lg={4}
             className="mb-5 mt-5 text-center px-2"
+            loading="lazy"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="100"
           >
             <center>
               <div className={MainCSS.numberBorder}></div>
@@ -78,6 +82,10 @@ function Achievement() {
             md={4}
             lg={4}
             className="mb-5 mt-5 text-center px-2"
+            loading="lazy"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <center>
               <div className={MainCSS.numberBorder}></div>
@@ -95,6 +103,10 @@ function Achievement() {
             md={4}
             lg={4}
             className="mb-5 mt-5 text-center px-2"
+            loading="lazy"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-delay="500"
           >
             <center>
               <div className={MainCSS.numberBorder}></div>

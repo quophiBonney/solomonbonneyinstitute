@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
+import AOS from 'aos';
 import Home from './pages/Home';
 import Achievement from './pages/Achievement';
 import Claim from './pages/Claim';
@@ -13,6 +14,9 @@ import Footer from './components/Footer';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div>
       <Header/>
