@@ -20,8 +20,8 @@ p {
 }
 /*** Navbar Design ***/
 #navbar {
-    background: rgb(209, 209, 218);
-    height: 100px;
+    background: rgba(195, 195, 196, 0.662);
+    height: 90px;
 }
 #logo {
     width: 200px;
@@ -41,21 +41,25 @@ p {
     background: rgba(195, 30, 18, 0.89);
     color: #fff;
     font-family: 'Archivo Black', sans-serif;
+    width: 200px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-size: 18px;
 } 
 /*** Banner Design ***/
 .banner {
-    margin-top: 100px;
+    margin-top: 90px;
     width: 100%;
     object-fit: cover;
     background: linear-gradient(rgba(133, 111, 31, 0.5), rgba(0, 0, 0, 0.5)),url('.././src/images/mainpic.jpg');
     background-position: center center;
-    height: 650px;
+    height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 #missionContainer {
-    margin-top: 100px;
+    margin-top: 180px;
 }
 #yellowText {
     color: yellow;
@@ -84,36 +88,197 @@ p {
 #help {
     font-size: 40px;
 }
+.numberBorder {
+    border-top: 10px solid rgba(218, 34, 21, 0.89);
+    width: 150px;
+}
 #number {
     font-size: 80px;
-    border-top: 5px solid rgba(218, 34, 21, 0.89);
 }
 #numberTitle {
     font-size: 25px;
 }
-/** **/
+/** Claim Design **/
+#benefit {
+    font-size: 20px;
+}
+#claimContainer {
+    background: linear-gradient(rgba(252, 255, 255, 0.869),rgba(252, 255, 255, 0.869), rgba(235, 153, 38, 0.89))
+}
 .claim {
     background: rgb(243, 243, 245);
 }
-
-
+#claimBorder {
+    width: 100px;
+    border-top: 5px solid #242323;
+}
+#codingTwo {
+    height: 400px;
+}
+#btnEnroll {
+    background:white;
+    color: rgba(235, 153, 38, 0.89);
+    border: 2px solid #fff;
+    font-family: 'Archivo Black', sans-serif;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*** Programs Design ***/
+.programsBg {
+    background:rgb(16, 16, 59);
+}
+#programsImg {
+    height: 250px;
+}
+#programName {
+    font-size: 25px;
+    color: rgba(245, 214, 19, 0.89);
+}
+#ourPrograms {
+    font-size: 50px;
+    color: #fff;
+}
+#programsCaption {
+    color:rgba(245, 214, 19, 0.89);
+}
+#redefineTitle {
+    font-size: 35px;
+    color:rgb(16, 16, 59);
+}
+#btnLearn {
+    background:rgba(229, 142, 20, 0.89);
+    color: #fff;
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+#btnLearn:hover {
+    background:rgb(16, 16, 59);
+    border: 2px solid rgba(210, 92, 18, 0.958);
+}
+/*** Contact Design ***/
+#contactContainer {
+    background: pink;
+    transition: 0.5s ease-in-out;
+}
+#worriedContainer {
+    background: transparent!important;
+    border: none;
+    border-radius: 0;
+    transform: scale(1);
+}
+#worriedImg {
+    height: 300px;
+    transition: 0.9s all;
+}
+#worriedImg:hover {
+    transform: scale(1.02);
+    width: 100%;
+    object-fit: fill;
+}
+#talk {
+    font-size: 25px;
+}
+#btnContact {
+    outline: 2px solid rgba(218, 34, 21, 0.89);
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    width: 170px;
+}
+/*** Footer Design ***/
+#footerLogo {
+    width: 170px;
+}
+#footerText {
+    font-size: 16px;
+}
+.fadeText {
+    color:rgba(16, 15, 15, 0.5);
+}
+/*** Responsive Design ***/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #navbar {
+        height: 80px;
+    }
+    #logo {
+        width: 23%;
+    }
     .banner {
-        height: 1000px;
+        margin-top: 80px;
+        height: 600px;
     }
     #missionContainer {
-        margin-top: 300px;
+        margin-top: 90px;
     }
     #mission {
+        font-size: 40px;
+        word-wrap: break-word;
+    }
+    #codingImg {
+        width: 100%;
+    }
+    #programName {
+        font-size: 25px;
+    }
+    #singleProgram {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    #btnLearn, #btnEnroll, #btnJoinGroup {
+        width: 160px;
+        font-size: 16px;
+    }
+    .textGroup {
+        margin-left: 35px;
+    }
+    #programsImg {
+        width: 250px;
+    }
+    #number {
         font-size: 60px;
     }
-    
+    #help {
+        font-size: 30px;
+    }
 }
-@media screen and (min-width: 369px) and (min-width: 768px){
+@media screen and (min-width: 375px) and (max-width: 768px){
+    .banner {
+        height: 600px;
+    }
     #btnBookSession {
         display: none;
     }
-    #mission, #help {
+    #mission, #help, #ourPrograms {
+        font-size: 25px;
+    }
+    #btnJoinGroup {
+        width: 150px;
+        font-size: 16px;
+        display: none;;
+    }
+    #numberTitle {
+        font-size: 20px;
+    }
+    #claimSecColumn {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #codingTwo {
+        width: 50%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .banner {
+        height: 600px;
+    }
+    #btnBookSession {
+        display: none;
+    }
+    #help, #mission, #ourPrograms {
         font-size: 30px;
     }
     #btnJoinGroup {
@@ -123,9 +288,49 @@ p {
     #numberTitle {
         font-size: 20px;
     }
+    #claimSecColumn {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #codingTwo {
+        width: 50%;
+        height: 200px;
+    }
 }
-@media screen and (max-width:368px) {
-    #mission, #help {
-        font-size: 25px;
+@media screen and (max-width: 280px) {
+    #navbar {
+        height: 60px;
+    }
+    #logo {
+        width: 100px;
+    }
+    .banner {
+        margin-top: 60px;
+        height: 600px;
+    }
+    #btnBookSession {
+        display: none;
+    }
+    #mission {
+        font-size: 20px;
+    }
+    #help {
+        font-size: 30px;
+        text-align: center;
+    }
+    #btnJoinGroup {
+        width: 150px;
+        font-size: 16px;
+    }
+    #numberTitle {
+        font-size: 20px;
+    }
+    #claimSecColumn {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #codingTwo {
+       width: 50%;
+       height: 150px;
     }
 }

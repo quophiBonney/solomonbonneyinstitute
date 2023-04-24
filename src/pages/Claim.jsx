@@ -1,71 +1,61 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
-
+import Coding from "../../src/images/coding.jpg";
+import Bg1 from "../../src/images/bg1.jpg";
+import Side from "../../src/images/side.jpg";
 function Claim() {
   return (
-    <Container fluid className={MainCSS.claim}>
+    <Container fluid id={MainCSS.claimContainer}>
       <Container>
-        <Row className="justify-content-center">
-          <Col sm={12} md={12} lg={12} className="text-center mt-5 mb-4">
-            <p className="text-dark text-uppercase">
-              learn in-demand tech skills to tap those untapped opportunities in
-              the world.
-            </p>
-            <h3 className="text-dark" id={MainCSS.help}>
-              Quickly kick-start to take your Computer Programming skills to the
-              highest level.
+        <Row>
+          <Col xs={12} sm={12} md={12} lg={12} xl={6} className="px-2 mt-5">
+            <div className="mt-2" id={MainCSS.claimBorder}></div>
+            <h3>
+              Claim your place in the tech world with our concise, practical and
+              impactful lessons.
             </h3>
-            <a href="" className="btn btn-lg" id={MainCSS.btnJoinGroup}>
+            <img
+              src={Coding}
+              alt="Coding"
+              className="img-fluid img-responsive"
+              id={MainCSS.codingImg}
+            />
+          </Col>
+          <Col
+            xs={12}
+            sm={12}
+            md={12}
+            lg={12}
+            xl={6}
+            className="px-2 mt-5"
+            id={MainCSS.claimSecColumn}
+          >
+            <div className="d-flex">
+              <img
+                src={Side}
+                alt="Coding"
+                className="col-xs-3 col-sm-6 col-lg-6 img-fluid img-responsive m-2"
+                id={MainCSS.codingTwo}
+              />
+              <img
+                src={Bg1}
+                alt="Coding"
+                className="col-xs-3 col-sm-6 col-lg-6 img-fluid img-responsive m-2"
+                id={MainCSS.codingTwo}
+              />
+            </div>
+            <p>
+              Claim your place in the tech world with our concise, practical and
+              impactful lessons.
+            </p>
+            <a
+              href="https://wa.me/+233596840018"
+              className="btn btn-lg mb-5"
+              id={MainCSS.btnEnroll}
+            >
               Enroll Now
             </a>
-          </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mt-5 mb-5 text-center">
-            <h3 className="text-dark" id={MainCSS.benefit}>
-              Affordable
-            </h3>
-            <p className="text-dark">
-              Get value for your money. Join the best and affordable bootcamp
-              sessions.
-            </p>
-            <h3 className="text-dark mt-5" id={MainCSS.benefit}>
-              Flexible & Engaging
-            </h3>
-            <p className="text-dark">
-              Join virtual classes and get access to resources for self-paced
-              revision.
-            </p>
-          </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mt-5 mb-5 text-center">
-            <h3 className="text-dark" id={MainCSS.benefit}>
-              Affordable
-            </h3>
-            <p className="text-dark">
-              Get value for your money. Join the best and affordable bootcamp
-              sessions.
-            </p>
-            <h3 className="text-dark mt-5" id={MainCSS.benefit}>
-              Flexible & Engaging
-            </h3>
-            <p className="text-dark">
-              Join virtual classes and get access to resources for self-paced
-              revision.
-            </p>
-          </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mt-5 mb-5 text-center">
-            <h3 className="text-dark" id={MainCSS.benefit}>
-              Future Proof
-            </h3>
-            <p className="text-dark">
-              Focused on high paying, in-demand fields of today and beyond.
-            </p>
-            <h3 className="text-dark mt-5" id={MainCSS.benefit}>
-              Real World Projects
-            </h3>
-            <p className="text-dark">
-              Acquire experience while you learn by building real world
-              projects.
-            </p>
           </Col>
         </Row>
       </Container>

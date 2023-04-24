@@ -52,7 +52,7 @@ function Header() {
             <Nav>
               <a
                 href="https://wa.me/+233596840018"
-                className="btn btn-lg py-2"
+                className="btn btn-lg"
                 id={MainCSS.btnBookSession}
               >
                 Book A Session

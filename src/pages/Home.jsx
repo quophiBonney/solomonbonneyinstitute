@@ -10,7 +10,7 @@ function Home() {
             sm={12}
             md={12}
             lg={12}
-            className="text-center"
+            className="text-center px-2"
             id={MainCSS.missionContainer}
           >
             <p className="mt-5" id={MainCSS.yellowText}>

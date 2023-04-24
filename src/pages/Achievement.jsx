@@ -50,29 +50,56 @@ function Achievement() {
     <Container fluid id={MainCSS.achievement}>
       <Container>
         <Row className="justify-content-center">
-          <Col sm={12} md={12} lg={12} className="text-center mt-5">
+          <Col sm={12} md={12} lg={12} className="text-center mt-5 px-2">
             <h3 className="text-light text-uppercase py-5" id={MainCSS.help}>
               We Have What It Takes To Help You
             </h3>
           </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mb-5 text-center">
-            <h3 className="text-light" id={MainCSS.number}>
+          <Col
+            xs={12}
+            sm={12}
+            md={4}
+            lg={4}
+            className="mb-5 mt-5 text-center px-2"
+          >
+            <center>
+              <div className={MainCSS.numberBorder}></div>
+            </center>
+            <h3 className="text-light py-2" id={MainCSS.number}>
               {experience}+
             </h3>
             <h4 className="text-uppercase text-light" id={MainCSS.numberTitle}>
               years industry experience
             </h4>
           </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mb-5 text-center">
-            <h3 className="text-light text-uppercase" id={MainCSS.number}>
+          <Col
+            xs={12}
+            sm={12}
+            md={4}
+            lg={4}
+            className="mb-5 mt-5 text-center px-2"
+          >
+            <center>
+              <div className={MainCSS.numberBorder}></div>
+            </center>
+            <h3 className="text-light py-2" id={MainCSS.number}>
               {course}
             </h3>
             <h4 className="text-uppercase text-light" id={MainCSS.numberTitle}>
               programming bootcamps held
             </h4>
           </Col>
-          <Col xs={12} sm={12} md={4} lg={4} className="mb-5 text-center">
-            <h3 className="text-light text-uppercase" id={MainCSS.number}>
+          <Col
+            xs={12}
+            sm={12}
+            md={4}
+            lg={4}
+            className="mb-5 mt-5 text-center px-2"
+          >
+            <center>
+              <div className={MainCSS.numberBorder}></div>
+            </center>
+            <h3 className="text-light py-2" id={MainCSS.number}>
               {student}+
             </h3>
             <h4 className="text-uppercase text-light" id={MainCSS.numberTitle}>
