@@ -1,9 +1,9 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
-import Coding from "../../src/images/coding.jpg";
-import Bg1 from "../../src/images/bg1.jpg";
-import Side from "../../src/images/side.jpg";
+import Coding from "../../src/images/coding-min.jpg";
+import Bg1 from "../../src/images/bg1-min.jpg";
+import Side from "../../src/images/side-min.jpg";
 import LazyLoad from "react-lazy-load";
 function Claim() {
   return (

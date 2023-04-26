@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
-import Worried from "../../src/images/teamwork.jpeg";
+import Worried from "../../src/images/teamwork-min.jpeg";
 import LazyLoad from "react-lazy-load";
 function Contact() {
   return (

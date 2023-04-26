@@ -29,7 +29,11 @@ function Home() {
               Acquire practical experience and become empowered for tech jobs to
               brighten your future.
             </p>
-            <a href="" className="btn btn-lg" id={MainCSS.btnJoinGroup}>
+            <a
+              href="https://chat.whatsapp.com/BhaHJyB8WfY3KYdxYKpzjd"
+              className="btn btn-lg"
+              id={MainCSS.btnJoinGroup}
+            >
               Enroll Now
             </a>
           </Col>

@@ -22,11 +22,12 @@ p {
 }
 /*** Navbar Design ***/
 #navbar {
-    background: rgba(195, 195, 196, 0.662);
+    background: #f2bd00;
     height: 90px;
 }
 #logo {
-    width: 200px;
+    width: 150px;
+    
 }
 .menuLink {
     font-size: 16px;
@@ -53,7 +54,7 @@ p {
     margin-top: 90px;
     width: 100%;
     object-fit: cover;
-    background: linear-gradient(rgba(133, 111, 31, 0.5), rgba(0, 0, 0, 0.5)),url('.././src/images/mainpic.jpg');
+    background: linear-gradient(rgba(133, 111, 31, 0.5), rgba(0, 0, 0, 0.5)),url('.././src/images/mainpic-min.jpg');
     background-position: center center;
     height: 750px;
     background-repeat: no-repeat;
@@ -109,7 +110,7 @@ p {
     overflow-x: hidden;
 }
 .claim {
-    background: rgb(243, 243, 245);
+    background: rgb(247, 247, 249);
 }
 #claimBorder {
     width: 100px;
@@ -164,23 +165,14 @@ p {
 }
 /*** Contact Design ***/
 #contactContainer {
-    background: pink;
     transition: 0.5s ease-in-out;
 }
 #worriedContainer {
-    background: transparent!important;
     border: none;
-    border-radius: 0;
-    transform: scale(1);
 }
 #worriedImg {
     height: 300px;
     transition: 0.9s all;
-}
-#worriedImg:hover {
-    transform: scale(1.02);
-    width: 100%;
-    object-fit: fill;
 }
 #talk {
     font-size: 25px;
@@ -192,6 +184,10 @@ p {
     width: 170px;
 }
 /*** Footer Design ***/
+.footer {
+    background: #f2bd00;
+    color: #fff;
+}
 #footerLogo {
     width: 170px;
 }
@@ -207,7 +203,7 @@ p {
         height: 80px;
     }
     #logo {
-        width: 23%;
+        width: 120px;
     }
     .banner {
         margin-top: 80px;

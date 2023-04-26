@@ -1,7 +1,7 @@
 import React from "react";
 import {Nav, Navbar, Container} from "react-bootstrap";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Logo from "../../src/images/schlogo.png";
+import Logo from "../../src/images/logo.png";
 import WebDevelopment from "../pages/WebDevelopment";
 import ContentWriting from "../pages/ContentWriting";
 import WordPressDevelopment from "../pages/WordPressDevelopment";

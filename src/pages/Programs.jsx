@@ -2,8 +2,8 @@ import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
 import Remote from "../../src/images/remotejob.jpg";
-import Laptop from "../../src/images/laptop.png";
-import Content from "../../src/images/contentwriting.jpg";
+import Laptop from "../../src/images/laptop-min.png";
+import Content from "../../src/images/contentwriting-min.jpg";
 import LazyLoad from "react-lazy-load";
 function Programs() {
   return (

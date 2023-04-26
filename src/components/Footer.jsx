@@ -1,12 +1,12 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
-import Logo from "../../src/images/schlogo.png";
+import Logo from "../../src/images/logo.png";
 function Footer() {
   return (
-    <Container fluid className="">
+    <Container fluid className={MainCSS.footer}>
       <Row className="justify-content-center">
-        <Col sm={12} md={12} lg={3} xl={3} className="px-2">
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
           <img
             src={Logo}
             alt="Solomon Bonney Institute Logo"
@@ -18,14 +18,14 @@ function Footer() {
             Copyright &copy; 2023 All rights reserved
           </small>
         </Col>
-        <Col sm={12} md={3} lg={3} xl={3} className="px-2">
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
           <p id={MainCSS.footerText} className="mt-3 mb-3">
             <span className={MainCSS.fadeText}>Open Hours:</span>
             <br />
             Monday - Friday 9am - 5pm GMT
           </p>
         </Col>
-        <Col sm={12} md={3} lg={3} xl={3} className="px-2">
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
           <p id={MainCSS.footerText} className="mt-3 mb-3">
             <span className={MainCSS.fadeText}>Phone:</span> +233596840018
             <br />
@@ -33,7 +33,7 @@ function Footer() {
             &nbsp;solomonbonney27@gmail.com
           </p>
         </Col>
-        <Col sm={12} md={3} lg={3} xl={3} className="px-2">
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
           <p id={MainCSS.footerText} className="mt-3 mb-3">
             <span className={MainCSS.fadeText}>Address:</span> B/A 72,
             Kasoa-Bawjiase
