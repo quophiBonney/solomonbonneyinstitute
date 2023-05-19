@@ -11,7 +11,7 @@ function Contact() {
           <p className="text-secondary mt-5">
             Need some assistance or answers?
           </p>
-          <h5 id={MainCSS.talk}>React Out To Us So We Can Begin Talking</h5>
+          <h5 id={MainCSS.talk}>Reach Out To Us So We Can Begin Talking</h5>
           <a
             href="https://wa.me/+233596840018"
             className="btn btn-md mt-3"

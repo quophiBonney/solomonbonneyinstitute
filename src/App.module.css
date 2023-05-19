@@ -23,11 +23,11 @@ p {
 /*** Navbar Design ***/
 #navbar {
     background: #f2bd00;
-    height: 90px;
+    color: #fff;
 }
-#logo {
-    width: 150px;
-    
+#navLogo {
+    width: 80px;
+    object-fit: cover;
 }
 .menuLink {
     font-size: 16px;
@@ -51,7 +51,7 @@ p {
 } 
 /*** Banner Design ***/
 .banner {
-    margin-top: 90px;
+    margin-top: 80px;
     width: 100%;
     object-fit: cover;
     background: linear-gradient(rgba(133, 111, 31, 0.5), rgba(0, 0, 0, 0.5)),url('.././src/images/mainpic-min.jpg');
@@ -185,7 +185,7 @@ p {
 }
 /*** Footer Design ***/
 .footer {
-    background: #f2bd00;
+    background: #201e17;
     color: #fff;
 }
 #footerLogo {
@@ -210,7 +210,7 @@ p {
         height: 600px;
     }
     #missionContainer {
-        margin-top: 90px;
+        margin-top: 80px;
     }
     #mission {
         font-size: 40px;
@@ -245,6 +245,7 @@ p {
 }
 @media screen and (min-width: 375px) and (max-width: 768px){
     .banner {
+        margin-top: 50px;
         height: 600px;
     }
     #btnBookSession {
