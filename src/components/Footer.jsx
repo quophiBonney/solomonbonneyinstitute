@@ -1,19 +1,12 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import MainCSS from "../App.module.css";
-import Logo from "../../src/images/logo.png";
 function Footer() {
   return (
     <Container fluid className={MainCSS.footer}>
       <Row className="justify-content-center">
-        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
-          <img
-            src={Logo}
-            alt="Solomon Bonney Institute Logo"
-            className="img-fluid img-responsive mt-3 mb-3"
-            id={MainCSS.footerLogo}
-          />
-          <br />
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3 text-center">
+          <h3 className={MainCSS.footerLogo}>SKBI</h3>
           <small className={MainCSS.fadeText}>
             Copyright &copy; 2023 All rights reserved
           </small>
