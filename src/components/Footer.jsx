@@ -5,7 +5,7 @@ function Footer() {
   return (
     <Container fluid className={MainCSS.footer}>
       <Row className="justify-content-center">
-        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3 text-center">
+        <Col sm={12} md={6} lg={3} xl={3} className="px-2 mt-3">
           <h3 className={MainCSS.footerLogo}>SKBI</h3>
           <small className={MainCSS.fadeText}>
             Copyright &copy; 2023 All rights reserved
