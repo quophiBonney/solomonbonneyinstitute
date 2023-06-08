@@ -31,11 +31,10 @@ p {
 }
 .menuLink {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     color: #110f0f;
     font-weight: 800;
     text-transform: uppercase;
-    font-weight: 700;
     text-align: center;
 }
 .menuLink:hover {
